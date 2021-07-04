@@ -1,43 +1,43 @@
 const quotes = [
     {
         quote: "Stay hungry, stay foolish",
-        author: "Steve Jobs",
+        author: "- Steve Jobs -",
     },
     {
         quote: "Have the courage to follow your heart and intuition",
-        author: "Steve Jobs",
+        author: "- Steve Jobs -",
     },
     {
         quote: "Your time is limited so don't waste it living someone else's mind",
-        author: "Steve Jobs",
+        author: "- Steve Jobs -",
     },
     {
         quote: "If you born poor not your mistake but if you die poor is your mistake",
-        author: "Bill gates",
+        author: "- Bill gates -",
     },
     {
         quote: "Life is not fair get used to it",
-        author: "Bill gates",
+        author: "- Bill gates -",
     },
     {
         quote: "Only a life lived for others is a life worthwhile.",
-        author: "Albert Einstein",
+        author: "- Albert Einstein -",
     },
     {
     quote: "You only live once, but if you do it right, once is enough.",
-    author: "Mae West",
+    author: "- Mae West -",
      },
     {
     quote: "Never go on trips with anyone you do ntot love.",
-    author: "Hemmingway",
+    author: "- Hemmingway -",
     },
     {
     quote: "We wander for distraction, but we travel for fulfilment.",
-    author: "Hilaire Belloc",
+    author: "- Hilaire Belloc -",
      },
     {
     quote: "Travel expands the mind and fills the gap.",
-    author: "Sheda Savage",
+    author: "- Sheda Savage -",
     }
 ]
 
