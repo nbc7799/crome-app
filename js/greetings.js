@@ -120,6 +120,12 @@ function onLoginSubmit(event) {
 function paintGreetings(username) {
     greeting.classList.remove(HIDDEN_CLASSNAME);
     greeting.innerText = `Hello ${username}`;
+    document.getElementById("todo-list").classList.remove(HIDDEN_CLASSNAME);
+    document.getElementById("todo-form").classList.remove(HIDDEN_CLASSNAME);
+    document.querySelector("#quote-list span:first-child").classList.remove(HIDDEN_CLASSNAME);
+    document.querySelector("#quote-list span:last-child").classList.remove(HIDDEN_CLASSNAME);
+
+
 }
 
 const savedUsername = localStorage.getItem("USERNAME_KEY");

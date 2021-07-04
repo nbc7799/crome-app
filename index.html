@@ -8,6 +8,17 @@
     <title>Momentum App</title>
   </head>
   <body>
+    <div id="screen-box">
+      <div class="top-part">
+        <span class="top-part-left">00:00:00</span>
+        <div class="top-part-right">
+          <div id="weather">
+            <span>날씨</span>
+            <span class="author"></span>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="screen-words">
       <form class="hidden" id="login-form">
         <input
@@ -16,25 +27,21 @@
           type="text"
           placeholder="What is your name?"
         />
-        <button>Log In</button>
+        <button></button>
       </form>
       <h1 id="greeting" class="hidden"></h1>
       <h2 id="clock">00:00</h2>
-      <form id="todo-form">
+      <form id="todo-form" class="hidden">
         <input
           id="todo-input"
           type="text"
           placeholder="Write a To Do and Press Enter"
         />
       </form>
-      <ul id="todo-list"></ul>
-      <div id="quote">
-        <span> </span>
-        <span> </span>
-      </div>
-      <div id="weather">
-        <span></span>
-        <span class="author"></span>
+      <ul id="todo-list" class="hidden"></ul>
+      <div id="quote-list" class="hidden">
+        <span class="hidden"> </span>
+        <span class="hidden"> </span>
       </div>
     </div>
     <script src="js/greetings.js"></script>
@@ -42,6 +49,7 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/date.js"></script>
     <script src="js/weather.js"></script>
   </body>
 </html>
